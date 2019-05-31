@@ -18,4 +18,5 @@ module.exports = {
       throw new Error('Unable to fetch weather.');
     });
   }
+  
 }
