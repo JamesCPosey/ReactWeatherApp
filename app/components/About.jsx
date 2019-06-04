@@ -4,7 +4,7 @@ var About = (props) => {
   return (
     <div>
       <h3>About</h3>
-      <p>A simple React-based weather application.</p>
+      <p>About page placeholder text</p>
     </div>
   )
 };
