@@ -11,6 +11,9 @@ require('style-loader!css-loader!foundation-sites/dist/css/foundation.min.css');
 require('style-loader!css-loader!foundation-sites/dist/css/foundation-float.min.css')
 $(document).foundation();
 
+// App CSS
+require('style!css!applicationStyles');
+
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>

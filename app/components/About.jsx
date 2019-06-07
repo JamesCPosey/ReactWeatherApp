@@ -4,7 +4,7 @@ var About = (props) => {
   return (
     <div className="text-align: center">
     <div className="display: inline-block">
-      <h1>About</h1>
+      <h1 className="page-title">About</h1>
       <p>A React weather application built by James C Posey Jr.</p>
       <p>Technologies used:</p>
       <ol>
